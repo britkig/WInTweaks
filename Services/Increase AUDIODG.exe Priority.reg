@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+;	Increases priority of AUDIODG.EXE; may help mitigate audio stuttering.
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\audiodg.exe\PerfOptions]
+"CpuPriorityClass"=dword:00000003
