@@ -1,0 +1,9 @@
+; DISABLE SLEEP AND HIBERNATE WHILST GAME MODE IS ACTIVE
+
+;	Disable Auto-hibernate timer (SUB_SLEEP\HIBERNATEIDLE)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238c9fa8-0aad-41ed-83f4-97be242c8f20\9d7815a6-7ee4-497e-8888-515a05f02364\d4140c81-ebba-4e60-8561-6918290359cd\381b4222-f694-41f0-9685-ff5bb260df2e]
+"ProvAcSettingIndex"=dword:00000000
+
+;	Disable system sleep timer (SUB_SLEEP\STANDBYIDLE)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238c9fa8-0aad-41ed-83f4-97be242c8f20\29f6c1db-86da-48c5-9fdb-f2b67b1f44da\d4140c81-ebba-4e60-8561-6918290359cd\381b4222-f694-41f0-9685-ff5bb260df2e]
+"ProvAcSettingIndex"=dword:00000000
