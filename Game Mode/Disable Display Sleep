@@ -1,0 +1,6 @@
+;	DISABLE SCREEN SLEEP WHILST GAME MODE IS ACTIVE
+
+;	Disable screen sleep timer (SUB_VIDEO\VIDEOIDLE)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\7516b95f-f776-4464-8c53-06167f40cc99\3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e\d4140c81-ebba-4e60-8561-6918290359cd\381b4222-f694-41f0-9685-ff5bb260df2e]
+"ProvAcSettingIndex"=dword:00000000
+"ProvDcSettingIndex"=-
