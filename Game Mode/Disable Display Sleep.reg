@@ -1,3 +1,4 @@
+Windows Registry Editor Version 5.00
 ;	DISABLE SCREEN SLEEP WHILST GAME MODE IS ACTIVE
 
 ;	Disable screen sleep timer (SUB_VIDEO\VIDEOIDLE)
